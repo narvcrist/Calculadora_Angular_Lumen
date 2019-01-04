@@ -58,13 +58,13 @@
  
 .header{
     width: 100%;
-    background-color: #78281F;
+    background-color: #D7DBDD  ;
     height: 100px;
 }
  
 .header h3{
     line-height: 100px;
-    color: #fff;
+    color: #000;
 }
  
 .button {
