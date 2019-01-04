@@ -1,0 +1,43 @@
+<div class="container">
+	<div class="header">
+		<h3>
+			Calculadora Básica
+		</h3>	
+	</div>
+
+	<div class="grid">
+		<div class="row">
+			<div class="col-6">
+				<div class="operation">
+					<div class="row">
+						<div class="col-10">
+              <br>
+							<input [(ngModel)]="number1" type="number" name="" placeholder="Ingrese un número">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-10">
+							<input [(ngModel)]="number2" type="number" name="" placeholder="ingrese un número">
+						</div>
+					</div>
+					<div>
+            <br>
+            <button type="button" style="margin-left: 10px" (click)="mas()" class="btn btn-success">+</button>
+            <button type="button" style="margin-left: 10px" (click)="menos()" class="btn btn-success">-</button>
+            <button type="button" style="margin-left: 10px" (click)="por()" class="btn btn-success">x</button>
+            <button type="button" style="margin-left: 10px" (click)="div()" class="btn btn-success">/</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-6">
+        <br>
+				<div class="result">
+					<span>
+						{{result}}
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
